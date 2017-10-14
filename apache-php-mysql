@@ -1,4 +1,4 @@
-**Apache 
+-- Apache 
 To check the version of apache
 httpd -v 
 
@@ -11,12 +11,12 @@ sudo apachectl configtest
 /Library/WebServer/Documents/ contents the file that are displayed in a browser
 
 
-**PHP
+-- PHP
 location of php.ini file 
 /private/etc/
 
 
-**MySQL
+-- MySQL
 
 To uninstall MySQL copy all these command and run (make sure you stop the MySQL server before uninstalling)
 sudo rm /usr/local/mysql
