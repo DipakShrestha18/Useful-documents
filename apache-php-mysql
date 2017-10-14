@@ -1,1 +1,28 @@
-todo
+**Apache 
+To check the version of apache
+httpd -v 
+
+Location of apache installation and key configuration file is httpd.conf
+/etc/apache2/
+
+Command to read apache configuration file and report any problem to it 
+sudo apachectl configtest
+
+/Library/WebServer/Documents/ contents the file that are displayed in a browser
+
+
+**PHP
+location of php.ini file 
+/private/etc/
+
+
+**MySQL
+
+To uninstall MySQL copy all these command and run (make sure you stop the MySQL server before uninstalling)
+sudo rm /usr/local/mysql
+sudo rm -rf /usr/local/mysql*
+sudo rm -rf /Library/StartupItems/MySQLCOM
+sudo rm -rf /Library/PreferencePanes/My*
+sudo rm -rf /Library/Receipts/mysql*
+sudo rm -rf /Library/Receipts/MYSQL*
+sudo rm /etc/my.cnf
