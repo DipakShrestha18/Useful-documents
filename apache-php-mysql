@@ -26,3 +26,15 @@ sudo rm -rf /Library/PreferencePanes/My*
 sudo rm -rf /Library/Receipts/mysql*
 sudo rm -rf /Library/Receipts/MYSQL*
 sudo rm /etc/my.cnf
+
+-- Composer
+Composer is installing in 
+/usr/local/bin
+
+Global composer.json is in 
+/Users/dipak/.composer/composer.json
+
+To update global composer packages
+composer global update 
+
+-- Drush
